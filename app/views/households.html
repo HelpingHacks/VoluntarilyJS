@@ -13,22 +13,12 @@
             <div class="clear"></div>
         </div>
     </div>
-    <div class="inside-listing">
-        <div class="listing">
-            <div class="check">
-                <div class="checkboxes" id="checkbox-1"></div>
-            </div>
-            <p>Mrs. Lois, Miss Lane</p>
-
-            <p>Apt 5E</p>
-
-            <p>15 Mill Rd. Brooklyn, NY 11216</p>
-            <a href="outside.html?id=1">
-                <div class="arrow"><img src="img/arrow.png"></div>
-            </a>
-
-            <div class="clear"></div>
-        </div>
+    <div class="inside-listing households">
+        <ul>
+            <li ng-repeat="household in households">
+                <household contact-name="household.contactName" address="household.address" apt="household.apt"></household>
+            </li>
+        </ul>
     </div>
 </div>
 
