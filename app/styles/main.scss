@@ -1,5 +1,11 @@
 @import "compass_twitter_bootstrap";
 
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   background: #0C282B;
 }
@@ -252,6 +258,9 @@ body {
   border-radius: 5px;
   background: white;
   font-size: 25px;
+  width: 50px;
+  padding: 4px !important;
+  text-align: center;
 }
 
 .contact-date p {
@@ -498,7 +507,6 @@ input[type='range'] {
 }
 
 .slider-thumb {
-  &.value-0::-webkit-slider-thumb,
   &.value-1::-webkit-slider-thumb {
     background-color: green;
   }
@@ -518,4 +526,84 @@ input[type='range'] {
   &.value-5::-webkit-slider-thumb {
     background-color: #801500;
   }
+}
+
+urgency-panel {
+  h3 {
+    display:inline;
+  }
+}
+
+supplies-panel {
+  ul {
+
+    li {
+      list-style-type: none;
+    }
+  }
+}
+
+supply-counter {
+  button,
+  input[type='tel'] {
+    width: 50px;
+    height: 50px;
+    margin: 5px 0 0;
+    -webkit-box-shadow: 2px 2px 0 #474747, inset 0px 1px rgba(255, 255, 255, 0.2), transparent 0 0 0, transparent 0 0 0, transparent 0 0 0;
+    box-shadow: 2px 2px 0 #474747, inset 0px 1px rgba(255, 255, 255, 0.2), transparent 0 0 0, transparent 0 0 0, transparent 0 0 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-right: 6px;
+  }
+
+
+  img {
+    //float: right;
+    margin-right:20px;
+  }
+
+  .supplies {
+    width: 40%;
+    float: left;
+  }
+
+  .control {
+    width: 50%;
+    float: left;
+    ul {
+      float: left;
+      margin: 0;
+    }
+
+    .output {
+      height: 100px;
+      width: 70px;
+      margin: 10px 0;
+      font-size:  2em;
+    }
+  }
+}
+
+.incrementer-btn {
+  display: inline;
+  padding: 0;
+  color: white;
+  background-color: grey;
+  &:before {
+    content: "+";
+  }
+}
+
+.decrementer-btn {
+  padding: 0;
+  display: inline;
+  &:before {
+    content: "-";
+  }
+}
+
+.urgency-value {
+  font-size: 2em;
+  font-weight: bold;
 }

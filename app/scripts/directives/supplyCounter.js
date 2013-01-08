@@ -8,7 +8,8 @@ voluntarilyApp.directive('supplyCounter', function() {
     scope: {
       name: '=',
       imageUrl: '=',
-      count: '='
+      count: '=',
+      color: '='
     },
 
     link: function postLink(scope, element, attrs) {
