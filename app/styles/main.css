@@ -4377,6 +4377,11 @@ a.label:hover, a.badge:hover {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   background: #0C282B; }
 
@@ -4420,12 +4425,6 @@ body {
   margin: 5px 0 0;
   -webkit-box-shadow: 0 3px 0 #235386, inset 0px 1px rgba(255, 255, 255, 0.2), transparent 0 0 0, transparent 0 0 0, transparent 0 0 0;
   box-shadow: 0 3px 0 #235386, inset 0px 1px rgba(255, 255, 255, 0.2), transparent 0 0 0, transparent 0 0 0, transparent 0 0 0; }
-
-.btn.start{
-  position: relative;
-  top:413px;
-  left:39px;
-}
 
 .logo {
   background-image: url(../images/logo.png);
@@ -4577,7 +4576,10 @@ body {
   border: 1px solid black;
   border-radius: 5px;
   background: white;
-  font-size: 25px; }
+  font-size: 25px;
+  width: 50px;
+  padding: 4px !important;
+  text-align: center; }
 
 .contact-date p {
   margin: 0px;
@@ -4763,7 +4765,7 @@ input[type='range'] {
 .opacity-half {
   opacity: 0.5; }
 
-.slider-thumb.value-0::-webkit-slider-thumb, .slider-thumb.value-1::-webkit-slider-thumb {
+.slider-thumb.value-1::-webkit-slider-thumb {
   background-color: green; }
 .slider-thumb.value-2::-webkit-slider-thumb {
   background-color: #6a8000; }
@@ -4773,3 +4775,55 @@ input[type='range'] {
   background-color: #803500; }
 .slider-thumb.value-5::-webkit-slider-thumb {
   background-color: #801500; }
+
+urgency-panel h3 {
+  display: inline; }
+
+supplies-panel ul li {
+  list-style-type: none; }
+
+supply-counter button,
+supply-counter input[type='tel'] {
+  width: 50px;
+  height: 50px;
+  margin: 5px 0 0;
+  -webkit-box-shadow: 2px 2px 0 #474747, inset 0px 1px rgba(255, 255, 255, 0.2), transparent 0 0 0, transparent 0 0 0, transparent 0 0 0;
+  box-shadow: 2px 2px 0 #474747, inset 0px 1px rgba(255, 255, 255, 0.2), transparent 0 0 0, transparent 0 0 0, transparent 0 0 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 6px; }
+supply-counter img {
+  margin-right: 20px; }
+supply-counter .supplies {
+  width: 40%;
+  float: left; }
+supply-counter .control {
+  width: 50%;
+  float: left; }
+  supply-counter .control ul {
+    float: left;
+    margin: 0; }
+  supply-counter .control .output {
+    height: 100px;
+    width: 70px;
+    margin: 10px 0;
+    font-size: 2em; }
+
+.incrementer-btn {
+  display: inline;
+  padding: 0;
+  color: white;
+  background-color: grey; }
+  .incrementer-btn:before {
+    content: "+"; }
+
+.decrementer-btn {
+  padding: 0;
+  display: inline; }
+  .decrementer-btn:before {
+    content: "-"; }
+
+.urgency-value {
+  font-size: 2em;
+  font-weight: bold; }
