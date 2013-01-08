@@ -1,6 +1,6 @@
 'use strict';
 
-voluntarilyApp.controller('MainCtrl', function($scope) {
+voluntarilyApp.controller('HouseholdsCtrl', function($scope) {
   $scope.awesomeThings = [
     'HTML5 Boilerplate',
     'AngularJS',

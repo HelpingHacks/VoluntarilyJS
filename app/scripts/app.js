@@ -4,8 +4,25 @@ var voluntarilyApp = angular.module('voluntarilyApp', [])
   .config(['$routeProvider', function($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/login.html',
+        controller: 'LoginCtrl'
+      })
+      .when('/team', {
+        templateUrl: 'views/team.html',
+        controller: 'TeamCtrl'
+      })
+
+      .when('/households', {
+        templateUrl: 'views/households.html',
+        controller: 'HouseholdsCtrl'
+      })
+      .when('/surveys', {
+        templateUrl: 'views/surveys.html',
+        controller: 'SurveysCtrl'
+      })
+      .when('/organizer', {
+        templateUrl: 'views/organizer.html',
+        controller: 'OrganizerCtrl'
       })
       .otherwise({
         redirectTo: '/'
