@@ -529,6 +529,10 @@ input[type='range'] {
 }
 
 urgency-panel {
+  .btn-danger {
+    //display: none;
+  }
+
   h3 {
     display:inline;
   }
@@ -606,4 +610,8 @@ supply-counter {
 .urgency-value {
   font-size: 2em;
   font-weight: bold;
+}
+
+.submit-btn {
+  margin-left: 50px;
 }

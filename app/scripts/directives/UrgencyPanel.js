@@ -8,6 +8,12 @@ voluntarilyApp.directive('urgencyPanel', function() {
       urgency: '='
     },
     link: function postLink(scope, element, attrs) {
+//      element.bind('change', function(e){
+//        if (scope.urgency == 5) {
+//          console.log(angular.element(e.currentTarget).find('a')[0]);
+//          angular.element(e.currentTarget).find('a')[0].show();
+//        }
+//      })
 
     }
   };

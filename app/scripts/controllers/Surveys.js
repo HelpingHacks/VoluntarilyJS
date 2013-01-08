@@ -2,7 +2,7 @@
 
 voluntarilyApp.controller('SurveysCtrl', function($scope) {
   $scope.contactName = 'John';
-  $scope.address = "123 Green Street, etc.";
+  $scope.address = "123 Green Street Apt: 1B";
   $scope.urgency = 1;
   $scope.utilities = [
     {labelText: "Power", broken: false, imageUrl: "/images/power_on.png"},
