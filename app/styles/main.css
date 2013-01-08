@@ -4426,6 +4426,11 @@ body {
   -webkit-box-shadow: 0 3px 0 #235386, inset 0px 1px rgba(255, 255, 255, 0.2), transparent 0 0 0, transparent 0 0 0, transparent 0 0 0;
   box-shadow: 0 3px 0 #235386, inset 0px 1px rgba(255, 255, 255, 0.2), transparent 0 0 0, transparent 0 0 0, transparent 0 0 0; }
 
+.btn.start {
+  position: relative;
+  top: 413px;
+  left: 56px; }
+
 .logo {
   background-image: url(../images/logo.png);
   background-repeat: no-repeat;
@@ -4442,6 +4447,11 @@ body {
     width: 320px; } }
 .submit-btn {
   width: 222px !important; }
+
+.topbar {
+  width: 320px;
+  height: 50px;
+  background-image: url(../images/header.png); }
 
 .team {
   background: url(../images/initative1.png);
@@ -4621,7 +4631,8 @@ body {
 #houseadd {
   background: green;
   font-size: 20px;
-  color: white; }
+  color: white;
+  width: 40px; }
 
 .header-address {
   text-indent: 10px;
@@ -4652,10 +4663,14 @@ body {
   background: whitesmoke;
   text-indent: 10px;
   padding: 10px 0;
-  border-bottom: 1px solid grey; }
+  height: 76px;
+  background-image: url(../images/cell.png); }
 
 .listing p {
   margin: 0; }
+
+.listing p:first-child {
+  font-weight: bold; }
 
 .listing .arrow {
   margin: -30px 0 0 10px;
@@ -4731,6 +4746,10 @@ utilities-panel ul {
 body {
   width: 100%;
   max-width: 320px; }
+
+ul, ol {
+  margin: 0;
+  padding: 0; }
 
 @media all and (max-width: 320px) {
   body {
