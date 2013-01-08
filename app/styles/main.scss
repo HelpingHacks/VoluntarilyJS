@@ -27,17 +27,21 @@ body {
   font-size: 15px;
 }
 
-.login .span2 {
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  padding: 10px;
+.login {
+  .span2 {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 20px;
+  }
 }
 
-.login .span3 {
-  border-top: 0;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  padding: 10px;
+.login {
+  .span3 {
+    border-top: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 20px;
+  }
 }
 
 .button-login {
@@ -508,29 +512,29 @@ input[type='range'] {
 
 .slider-thumb {
   &.value-1::-webkit-slider-thumb {
-    background-color: green;
+    background-color: #8F8480;
   }
 
   &.value-2::-webkit-slider-thumb {
-    background-color: #6a8000;
+    background-color: #9F7A6D;
   }
 
   &.value-3::-webkit-slider-thumb {
-    background-color: #806a00;
+    background-color: #B56B53;
   }
 
   &.value-4::-webkit-slider-thumb {
-    background-color: #803500;
+    background-color: #CB5C3B;
   }
 
   &.value-5::-webkit-slider-thumb {
-    background-color: #801500;
+    background-color: #DC502B;
   }
 }
 
 urgency-panel {
   h3 {
-    display:inline;
+    display: inline;
   }
 }
 
@@ -557,10 +561,9 @@ supply-counter {
     margin-right: 6px;
   }
 
-
   img {
     //float: right;
-    margin-right:20px;
+    margin-right: 20px;
   }
 
   .supplies {
@@ -580,7 +583,7 @@ supply-counter {
       height: 100px;
       width: 70px;
       margin: 10px 0;
-      font-size:  2em;
+      font-size: 2em;
     }
   }
 }

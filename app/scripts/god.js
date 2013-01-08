@@ -29,5 +29,5 @@ var households = [
 var urls = [{CPR_instructions: "http://www.cpr.com"}];
 
 var surveys = [
-  {id: 56, team_id: 1, household_id: 1, urgency: urgency, utilities: {/*utilities*/}, supplies: {/*supplies*/}, notes: notes}
+  {id: 56, team_id: 1, submitted: false, household_id: 1, urgency: urgency, utilities: {/*utilities*/}, supplies: {/*supplies*/}, notes: notes}
 ];

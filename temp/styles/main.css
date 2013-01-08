@@ -6188,27 +6188,27 @@ body {
   font-size: 15px;
 }
 
-/* line 30, ../../app/styles/main.scss */
+/* line 31, ../../app/styles/main.scss */
 .login .span2 {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
-  padding: 10px;
+  padding: 20px;
 }
 
-/* line 36, ../../app/styles/main.scss */
+/* line 39, ../../app/styles/main.scss */
 .login .span3 {
   border-top: 0;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-  padding: 10px;
+  padding: 20px;
 }
 
-/* line 43, ../../app/styles/main.scss */
+/* line 47, ../../app/styles/main.scss */
 .button-login {
   margin-top: 10px;
 }
 
-/* line 47, ../../app/styles/main.scss */
+/* line 51, ../../app/styles/main.scss */
 .button-login label {
   color: white;
   text-align: center;
@@ -6217,7 +6217,7 @@ body {
   color: whitesmoke;
 }
 
-/* line 55, ../../app/styles/main.scss */
+/* line 59, ../../app/styles/main.scss */
 .btn {
   width: 192px;
   margin: 5px 0 0;
@@ -6225,7 +6225,7 @@ body {
   box-shadow: 0 3px 0 #235386, inset 0px 1px rgba(255, 255, 255, 0.2), transparent 0 0 0, transparent 0 0 0, transparent 0 0 0;
 }
 
-/* line 62, ../../app/styles/main.scss */
+/* line 66, ../../app/styles/main.scss */
 .logo {
   background-image: url(../images/logo.png);
   background-repeat: no-repeat;
@@ -6234,24 +6234,24 @@ body {
   height: 220px;
 }
 
-/* line 73, ../../app/styles/main.scss */
+/* line 77, ../../app/styles/main.scss */
 body {
   width: 100%;
   max-width: 320px;
 }
 
 @media all and (max-width: 320px) {
-  /* line 79, ../../app/styles/main.scss */
+  /* line 83, ../../app/styles/main.scss */
   body {
     width: 320px;
   }
 }
-/* line 84, ../../app/styles/main.scss */
+/* line 88, ../../app/styles/main.scss */
 .submit-btn {
   width: 222px !important;
 }
 
-/* line 89, ../../app/styles/main.scss */
+/* line 93, ../../app/styles/main.scss */
 .team {
   background: url(../images/initative1.png);
   width: 320px;
@@ -6260,7 +6260,7 @@ body {
   height: 480px;
 }
 
-/* line 97, ../../app/styles/main.scss */
+/* line 101, ../../app/styles/main.scss */
 .team2 {
   background: url(../images/initative2.png);
   width: 320px;
@@ -6269,13 +6269,13 @@ body {
   height: 480px;
 }
 
-/* line 105, ../../app/styles/main.scss */
+/* line 109, ../../app/styles/main.scss */
 .setting {
   width: 100%;
   height: 70px;
 }
 
-/* line 110, ../../app/styles/main.scss */
+/* line 114, ../../app/styles/main.scss */
 .telephone {
   width: 50px;
   height: 50px;
@@ -6284,61 +6284,61 @@ body {
   background-repeat: no-repeat;
 }
 
-/* line 118, ../../app/styles/main.scss */
+/* line 122, ../../app/styles/main.scss */
 .one {
   margin-left: 265px;
   margin-top: 83px;
 }
 
-/* line 123, ../../app/styles/main.scss */
+/* line 127, ../../app/styles/main.scss */
 .two {
   margin-left: 265px;
   margin-top: 54px;
 }
 
-/* line 128, ../../app/styles/main.scss */
+/* line 132, ../../app/styles/main.scss */
 .three, .four {
   margin-left: 265px;
   margin-top: 29px;
 }
 
-/* line 135, ../../app/styles/main.scss */
+/* line 139, ../../app/styles/main.scss */
 .yo {
   background: #dadada;
 }
 
-/* line 139, ../../app/styles/main.scss */
+/* line 143, ../../app/styles/main.scss */
 .header-information {
   border-bottom: black solid 2px;
   padding: 10px;
   background: white;
 }
 
-/* line 145, ../../app/styles/main.scss */
+/* line 149, ../../app/styles/main.scss */
 .header-information h1 {
   font-weight: normal;
   font-size: 15px;
   line-height: 20px;
 }
 
-/* line 151, ../../app/styles/main.scss */
+/* line 155, ../../app/styles/main.scss */
 .header-information h2 {
   font-size: 15px;
   line-height: 20px;
 }
 
-/* line 156, ../../app/styles/main.scss */
+/* line 160, ../../app/styles/main.scss */
 .section {
   border-bottom: white solid 3px;
   background: #dadada;
 }
 
-/* line 161, ../../app/styles/main.scss */
+/* line 165, ../../app/styles/main.scss */
 .section-header {
   background: #333;
 }
 
-/* line 165, ../../app/styles/main.scss */
+/* line 169, ../../app/styles/main.scss */
 .section-header h1 {
   color: whitesmoke;
   font-size: 15px;
@@ -6348,101 +6348,101 @@ body {
   padding: 5px 0;
 }
 
-/* line 174, ../../app/styles/main.scss */
+/* line 178, ../../app/styles/main.scss */
 .title {
   float: left;
   width: 124px;
 }
 
-/* line 179, ../../app/styles/main.scss */
+/* line 183, ../../app/styles/main.scss */
 .title h3 {
   padding: 22px;
   font-size: 25px;
   color: #333;
 }
 
-/* line 185, ../../app/styles/main.scss */
+/* line 189, ../../app/styles/main.scss */
 .title.continue-visiting h3 {
   padding: 11px 22px;
 }
 
-/* line 189, ../../app/styles/main.scss */
+/* line 193, ../../app/styles/main.scss */
 .title.urgency {
   float: initial;
 }
 
-/* line 193, ../../app/styles/main.scss */
+/* line 197, ../../app/styles/main.scss */
 .title.urgency h3 {
   padding: 11px 22px 0;
 }
 
-/* line 197, ../../app/styles/main.scss */
+/* line 201, ../../app/styles/main.scss */
 .title.supplies h3 {
   padding: 5px 22px;
 }
 
-/* line 201, ../../app/styles/main.scss */
+/* line 205, ../../app/styles/main.scss */
 .control {
   margin: 0px 8px 10px 0;
   padding: 10px 10px 5px 10px;
 }
 
-/* line 206, ../../app/styles/main.scss */
+/* line 210, ../../app/styles/main.scss */
 .control.continue-visiting {
   padding: 15px 10px 0;
 }
 
-/* line 210, ../../app/styles/main.scss */
+/* line 214, ../../app/styles/main.scss */
 .control button {
   font-weight: bold;
   padding: 10px 20px;
 }
 
-/* line 215, ../../app/styles/main.scss */
+/* line 219, ../../app/styles/main.scss */
 .control label {
   margin: 0;
 }
 
-/* line 219, ../../app/styles/main.scss */
+/* line 223, ../../app/styles/main.scss */
 .control.urgency {
   float: initial;
 }
 
-/* line 223, ../../app/styles/main.scss */
+/* line 227, ../../app/styles/main.scss */
 .control #urgency {
   -webkit-appearance: none !important;
 }
 
-/* line 232, ../../app/styles/main.scss */
+/* line 236, ../../app/styles/main.scss */
 .control.utilities .button.utilities {
   float: left;
   margin-right: 10px;
 }
 
-/* line 237, ../../app/styles/main.scss */
+/* line 241, ../../app/styles/main.scss */
 .control.utilities .button.utilities:last-child {
   float: left;
   margin-right: 0px;
 }
 
-/* line 242, ../../app/styles/main.scss */
+/* line 246, ../../app/styles/main.scss */
 .control.utilities .button.utilities label {
   text-align: center;
 }
 
-/* line 246, ../../app/styles/main.scss */
+/* line 250, ../../app/styles/main.scss */
 .add, .add:hover {
   background: gray;
   color: white;
   font-size: 25px;
 }
 
-/* line 252, ../../app/styles/main.scss */
+/* line 256, ../../app/styles/main.scss */
 .minus {
   font-size: 25px;
 }
 
-/* line 256, ../../app/styles/main.scss */
+/* line 260, ../../app/styles/main.scss */
 .output {
   border: 1px solid black;
   border-radius: 5px;
@@ -6453,86 +6453,86 @@ body {
   text-align: center;
 }
 
-/* line 266, ../../app/styles/main.scss */
+/* line 270, ../../app/styles/main.scss */
 .contact-date p {
   margin: 0px;
   padding-top: 10px;
 }
 
-/* line 271, ../../app/styles/main.scss */
+/* line 275, ../../app/styles/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 275, ../../app/styles/main.scss */
+/* line 279, ../../app/styles/main.scss */
 .no-border {
   border: 0;
 }
 
-/* line 279, ../../app/styles/main.scss */
+/* line 283, ../../app/styles/main.scss */
 .supplies h3 {
   color: white;
 }
 
-/* line 283, ../../app/styles/main.scss */
+/* line 287, ../../app/styles/main.scss */
 #add_priority {
   padding: 10px;
   font-size: 20px;
 }
 
-/* line 288, ../../app/styles/main.scss */
+/* line 292, ../../app/styles/main.scss */
 .red h3 {
   color: #be1622;
 }
 
-/* line 292, ../../app/styles/main.scss */
+/* line 296, ../../app/styles/main.scss */
 .yellow h3 {
   color: #30AA5E;
 }
 
-/* line 296, ../../app/styles/main.scss */
+/* line 300, ../../app/styles/main.scss */
 .oj h3 {
   color: #e94e1b;
 }
 
-/* line 300, ../../app/styles/main.scss */
+/* line 304, ../../app/styles/main.scss */
 .blue h3 {
   color: #07afb9;
 }
 
-/* line 304, ../../app/styles/main.scss */
+/* line 308, ../../app/styles/main.scss */
 .btn.active {
   background: green;
   color: white;
 }
 
-/* line 309, ../../app/styles/main.scss */
+/* line 313, ../../app/styles/main.scss */
 .household {
   float: left;
   margin-right: 10px;
 }
 
-/* line 314, ../../app/styles/main.scss */
+/* line 318, ../../app/styles/main.scss */
 #houseadd {
   background: green;
   font-size: 20px;
   color: white;
 }
 
-/* line 320, ../../app/styles/main.scss */
+/* line 324, ../../app/styles/main.scss */
 .header-address {
   text-indent: 10px;
   background: #333;
 }
 
-/* line 325, ../../app/styles/main.scss */
+/* line 329, ../../app/styles/main.scss */
 .header-address h1 {
   color: whitesmoke;
   font-size: 15px;
   line-height: 25px;
 }
 
-/* line 331, ../../app/styles/main.scss */
+/* line 335, ../../app/styles/main.scss */
 .header-address h2 {
   color: whitesmoke;
   font-size: 15px;
@@ -6540,23 +6540,23 @@ body {
   line-height: 25px;
 }
 
-/* line 338, ../../app/styles/main.scss */
+/* line 342, ../../app/styles/main.scss */
 .add-household-bar {
   background: white;
 }
 
-/* line 342, ../../app/styles/main.scss */
+/* line 346, ../../app/styles/main.scss */
 .add-household {
   float: left;
   margin: 10px 0 10px 10px;
 }
 
-/* line 347, ../../app/styles/main.scss */
+/* line 351, ../../app/styles/main.scss */
 .fixed {
   box-shadow: 1px black;
 }
 
-/* line 351, ../../app/styles/main.scss */
+/* line 355, ../../app/styles/main.scss */
 .listing {
   background: whitesmoke;
   text-indent: 10px;
@@ -6564,12 +6564,12 @@ body {
   border-bottom: 1px solid grey;
 }
 
-/* line 358, ../../app/styles/main.scss */
+/* line 362, ../../app/styles/main.scss */
 .listing p {
   margin: 0;
 }
 
-/* line 362, ../../app/styles/main.scss */
+/* line 366, ../../app/styles/main.scss */
 .listing .arrow {
   margin: -30px 0 0 10px;
   float: right;
@@ -6577,125 +6577,125 @@ body {
   font-size: 30px;
 }
 
-/* line 372, ../../app/styles/main.scss */
+/* line 376, ../../app/styles/main.scss */
 .listing .check img {
   float: left;
   margin: 15px 10px;
 }
 
-/* line 377, ../../app/styles/main.scss */
+/* line 381, ../../app/styles/main.scss */
 .submit-btn {
   float: none;
   text-align: center;
 }
 
-/* line 382, ../../app/styles/main.scss */
+/* line 386, ../../app/styles/main.scss */
 .utilities .btn {
   height: 48px;
   width: 48px;
 }
 
-/* line 387, ../../app/styles/main.scss */
+/* line 391, ../../app/styles/main.scss */
 .utilities .btn:hover {
   background-position: 0px;
 }
 
-/* line 391, ../../app/styles/main.scss */
+/* line 395, ../../app/styles/main.scss */
 .power-btn {
   background: url("../images/power_on.png");
   background-repeat: no-repeat;
 }
 
-/* line 396, ../../app/styles/main.scss */
+/* line 400, ../../app/styles/main.scss */
 .utilities .power-btn.active {
   background: url("../images/power_on.png");
   opacity: 0.5;
 }
 
-/* line 401, ../../app/styles/main.scss */
+/* line 405, ../../app/styles/main.scss */
 .gas-btn {
   background: url("../images/gas_on.png");
   background-repeat: no-repeat;
 }
 
-/* line 406, ../../app/styles/main.scss */
+/* line 410, ../../app/styles/main.scss */
 .utilities .gas-btn.active {
   background: url("../images/gas_on.png");
   opacity: 0.5;
 }
 
-/* line 411, ../../app/styles/main.scss */
+/* line 415, ../../app/styles/main.scss */
 .water-btn {
   background: url("../images/water_on.png");
   background-repeat: no-repeat;
 }
 
-/* line 416, ../../app/styles/main.scss */
+/* line 420, ../../app/styles/main.scss */
 .utilities .water-btn.active {
   background: url("../images/water_on.png");
   opacity: 0.5;
 }
 
-/* line 421, ../../app/styles/main.scss */
+/* line 425, ../../app/styles/main.scss */
 .heat-btn {
   background: url("../images/heat_on.png");
   background-repeat: no-repeat;
 }
 
-/* line 426, ../../app/styles/main.scss */
+/* line 430, ../../app/styles/main.scss */
 .utilities .heat-btn.active {
   background: url("../images/heat_on.png");
   opacity: 0.5;
 }
 
-/* line 431, ../../app/styles/main.scss */
+/* line 435, ../../app/styles/main.scss */
 input, textarea {
   border: none;
 }
 
-/* line 436, ../../app/styles/main.scss */
+/* line 440, ../../app/styles/main.scss */
 address-panel textarea {
   font-weight: bolder;
   font-size: 15px;
 }
 
-/* line 443, ../../app/styles/main.scss */
+/* line 447, ../../app/styles/main.scss */
 utilities-panel ul {
   list-style: none;
 }
-/* line 445, ../../app/styles/main.scss */
+/* line 449, ../../app/styles/main.scss */
 utilities-panel ul li {
   display: inline;
 }
-/* line 447, ../../app/styles/main.scss */
+/* line 451, ../../app/styles/main.scss */
 utilities-panel ul li utility-button {
   width: 50px;
   float: left;
   margin-right: 22px;
 }
-/* line 452, ../../app/styles/main.scss */
+/* line 456, ../../app/styles/main.scss */
 utilities-panel ul li utility-button label {
   text-align: center;
 }
 
-/* line 460, ../../app/styles/main.scss */
+/* line 464, ../../app/styles/main.scss */
 body {
   width: 100%;
   max-width: 320px;
 }
 
 @media all and (max-width: 320px) {
-  /* line 466, ../../app/styles/main.scss */
+  /* line 470, ../../app/styles/main.scss */
   body {
     width: 320px;
   }
 }
-/* line 471, ../../app/styles/main.scss */
+/* line 475, ../../app/styles/main.scss */
 .emergency, .labor {
   text-align: center;
 }
 
-/* line 476, ../../app/styles/main.scss */
+/* line 480, ../../app/styles/main.scss */
 .organizer {
   background: url(../images/screen_organizer_2.png);
   width: 100%;
@@ -6704,7 +6704,7 @@ body {
   height: 480px;
 }
 
-/* line 484, ../../app/styles/main.scss */
+/* line 488, ../../app/styles/main.scss */
 input[type='range']::-webkit-slider-thumb {
   -webkit-appearance: none !important;
   box-shadow: 0 0 3px 3px rgba(128, 128, 128, 0.5);
@@ -6716,7 +6716,7 @@ input[type='range']::-webkit-slider-thumb {
   border: 0 solid;
 }
 
-/* line 496, ../../app/styles/main.scss */
+/* line 500, ../../app/styles/main.scss */
 input[type='range'] {
   margin: 40px 0;
   border-radius: 5px;
@@ -6725,43 +6725,43 @@ input[type='range'] {
   height: 10px;
 }
 
-/* line 505, ../../app/styles/main.scss */
+/* line 509, ../../app/styles/main.scss */
 .opacity-half {
   opacity: 0.5;
 }
 
-/* line 510, ../../app/styles/main.scss */
-.slider-thumb.value-1::-webkit-slider-thumb {
-  background-color: green;
-}
 /* line 514, ../../app/styles/main.scss */
-.slider-thumb.value-2::-webkit-slider-thumb {
-  background-color: #6a8000;
+.slider-thumb.value-1::-webkit-slider-thumb {
+  background-color: #8F8480;
 }
 /* line 518, ../../app/styles/main.scss */
-.slider-thumb.value-3::-webkit-slider-thumb {
-  background-color: #806a00;
+.slider-thumb.value-2::-webkit-slider-thumb {
+  background-color: #9F7A6D;
 }
 /* line 522, ../../app/styles/main.scss */
-.slider-thumb.value-4::-webkit-slider-thumb {
-  background-color: #803500;
+.slider-thumb.value-3::-webkit-slider-thumb {
+  background-color: #B56B53;
 }
 /* line 526, ../../app/styles/main.scss */
+.slider-thumb.value-4::-webkit-slider-thumb {
+  background-color: #CB5C3B;
+}
+/* line 530, ../../app/styles/main.scss */
 .slider-thumb.value-5::-webkit-slider-thumb {
-  background-color: #801500;
+  background-color: #DC502B;
 }
 
-/* line 532, ../../app/styles/main.scss */
+/* line 536, ../../app/styles/main.scss */
 urgency-panel h3 {
   display: inline;
 }
 
-/* line 540, ../../app/styles/main.scss */
+/* line 544, ../../app/styles/main.scss */
 supplies-panel ul li {
   list-style-type: none;
 }
 
-/* line 548, ../../app/styles/main.scss */
+/* line 552, ../../app/styles/main.scss */
 supply-counter button,
 supply-counter input[type='tel'] {
   width: 50px;
@@ -6774,26 +6774,26 @@ supply-counter input[type='tel'] {
   border-radius: 5px;
   margin-right: 6px;
 }
-/* line 561, ../../app/styles/main.scss */
+/* line 564, ../../app/styles/main.scss */
 supply-counter img {
   margin-right: 20px;
 }
-/* line 566, ../../app/styles/main.scss */
+/* line 569, ../../app/styles/main.scss */
 supply-counter .supplies {
   width: 40%;
   float: left;
 }
-/* line 571, ../../app/styles/main.scss */
+/* line 574, ../../app/styles/main.scss */
 supply-counter .control {
   width: 50%;
   float: left;
 }
-/* line 574, ../../app/styles/main.scss */
+/* line 577, ../../app/styles/main.scss */
 supply-counter .control ul {
   float: left;
   margin: 0;
 }
-/* line 579, ../../app/styles/main.scss */
+/* line 582, ../../app/styles/main.scss */
 supply-counter .control .output {
   height: 100px;
   width: 70px;
@@ -6801,29 +6801,29 @@ supply-counter .control .output {
   font-size: 2em;
 }
 
-/* line 588, ../../app/styles/main.scss */
+/* line 591, ../../app/styles/main.scss */
 .incrementer-btn {
   display: inline;
   padding: 0;
   color: white;
   background-color: grey;
 }
-/* line 593, ../../app/styles/main.scss */
+/* line 596, ../../app/styles/main.scss */
 .incrementer-btn:before {
   content: "+";
 }
 
-/* line 598, ../../app/styles/main.scss */
+/* line 601, ../../app/styles/main.scss */
 .decrementer-btn {
   padding: 0;
   display: inline;
 }
-/* line 601, ../../app/styles/main.scss */
+/* line 604, ../../app/styles/main.scss */
 .decrementer-btn:before {
   content: "-";
 }
 
-/* line 606, ../../app/styles/main.scss */
+/* line 609, ../../app/styles/main.scss */
 .urgency-value {
   font-size: 2em;
   font-weight: bold;
