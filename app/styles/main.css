@@ -4563,6 +4563,9 @@ body {
 .control #urgency {
   -webkit-appearance: none !important; }
 
+utilities-panel .section-body {
+  margin-left: 20px; }
+
 .control.utilities .button.utilities {
   float: left;
   margin-right: 10px; }
