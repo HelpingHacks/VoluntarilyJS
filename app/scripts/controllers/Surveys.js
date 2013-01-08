@@ -1,12 +1,6 @@
 'use strict';
 
 voluntarilyApp.controller('SurveysCtrl', function($scope) {
-  $scope.awesomeThings = [
-    'HTML5 Boilerplate',
-    'AngularJS',
-    'Testacular'
-  ];
-
   $scope.contactName = 'John';
   $scope.address = "123 Green Street, etc.";
   $scope.urgency = 1;

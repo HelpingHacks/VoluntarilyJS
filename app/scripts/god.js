@@ -29,8 +29,5 @@ var households = [
 var urls = [{CPR_instructions: "http://www.cpr.com"}];
 
 var surveys = [
-  {id: 56, team_id: 1, household_id: 1, has_electricity: false, urgency: 3}
+  {id: 56, team_id: 1, household_id: 1, urgency: urgency, utilities: {/*utilities*/}, supplies: {/*supplies*/}, notes: notes}
 ];
-
-var utilities = [{labelText: "Power", imageUrl: "/images/power_on.png"},
-                  {labelText: "Heat", imageUrl: "/images/heat_on.png"}];
