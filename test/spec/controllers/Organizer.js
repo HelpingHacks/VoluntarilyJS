@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: MainCtrl', function() {
+describe('Controller: OrganizerCtrl', function() {
 
   // load the controller's module
   beforeEach(module('voluntarilyApp'));
 
-  var MainCtrl,
+  var OrganizerCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function($controller) {
     scope = {};
-    MainCtrl = $controller('MainCtrl', {
+    OrganizerCtrl = $controller('OrganizerCtrl', {
       $scope: scope
     });
   }));
