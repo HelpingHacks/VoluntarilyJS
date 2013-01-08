@@ -1,0 +1,16 @@
+<div class="section">
+    <div class="section-body">
+        <div class="title supplies oj">
+            <h3>{{name}}</h3>
+            <img src="{{imageUrl}}">
+        </div>
+
+        <div class="control">
+            <span># needed</span>
+            <button ng-click="increment()" type="button" class="btn add">+</button>
+            <button ng-click="decrement()" type="button" class="btn minus">-</button>
+            <input type="text" class="output" value="{{count}}"></input>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>

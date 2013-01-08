@@ -4,14 +4,7 @@
 
     <!--urgency-->
     <div class="section no-border">
-        <div class="section-header"></div>
-
-        <div class="section-body">
-            <div class="title urgency">
-                <h3>Urgency</h3>
-            </div>
-            <urgency-panel></urgency-panel>
-        </div>
+        <urgency-panel urgency="urgency"></urgency-panel>
     </div>
     <!--urgency end-->
 
@@ -26,135 +19,22 @@
     <!--utilities-panel end-->
 
     <!--supplies-panel-->
-    <div class="section-header">
-        <h1>Supplies</h1>
-    </div>
-
-    <div class="supplies-list">
-        <!--supplies item-->
-        <div class="section">
-            <div class="section-body">
-                <div class="title supplies oj">
-                    <h3>Firstaid</h3>
-                    <img src="../images/firstaid.png">
-                </div>
-
-                <div class="control firstaid">
-                    <label># needed</label>
-                    <button id="firstaidadd" type="button" class="btn add">+</button>
-                    <button id="firstaidminus" type="button" class="btn minus">-</button>
-                    <button id="firstaidoutput" type="button" class="btn output">1</button>
-                </div>
-                <div class="clear"></div>
-            </div>
+    <div class="section no-border">
+        <div class="section-header">
+            <h1>Supplies</h1>
         </div>
-        <!--supplies item end-->
-
-        <div class="section">
-            <div class="section-body">
-                <div class="title supplies oj">
-                    <h3>Food</h3>
-                    <img src="../images/forkknife.png">
-                </div>
-
-                <div class="control food">
-                    <label># needed</label>
-                    <button id="foodadd" type="button" class="btn add">+</button>
-                    <button id="foodminus" type="button" class="btn minus">-</button>
-                    <button id="foodoutput" type="button" class="btn output">1</button>
-
-
-                </div>
-                <div class="clear"></div>
-
-
-            </div>
-        </div>
-
-
-        <div class="section">
-            <div class="section-body">
-                <div class="title supplies red">
-                    <h3>Flashlight</h3>
-                    <img src="../images/flashlight.png">
-                </div>
-
-                <div class="control flashlight">
-                    <label># needed</label>
-                    <button id="flashadd" type="button" class="btn add">+</button>
-                    <button id="flashminus" type="button" class="btn minus">-</button>
-                    <button id="flashoutput" type="button" class="btn output">1</button>
-
-
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-
-
-        <div class="section">
-            <div class="section-body">
-                <div class="title supplies yellow">
-                    <h3>Clothing</h3>
-                    <img src="../images/shirts_dark.png">
-                </div>
-
-                <div class="control clothing">
-                    <label># needed</label>
-                    <button id="clothingadd" type="button" class="btn add">+</button>
-                    <button id="clothingminus" type="button" class="btn minus">-</button>
-                    <button id="clothingoutput" type="button" class="btn output">1</button>
-
-
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-
-        <div class="section">
-            <div class="section-body">
-                <div class="title supplies blue">
-                    <h3>Water</h3>
-                    <img src="../images/water_bottles.png">
-                </div>
-
-                <div class="control water">
-                    <label># needed</label>
-                    <button id="wateradd" type="button" class="btn add">+</button>
-                    <button id="waterminus" type="button" class="btn minus">-</button>
-                    <button id="wateroutput" type="button" class="btn output">1</button>
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-
-        <div class="section">
-            <div class="section-body">
-                <div class="title supplies blue">
-                    <h3>Misc.</h3>
-                    <input type="text" placeholder="what else?">
-                </div>
-
-                <div class="control water">
-                    <label># needed</label>
-                    <button id="wateradd" type="button" class="btn add">+</button>
-                    <button id="waterminus" type="button" class="btn minus">-</button>
-                    <button id="wateroutput" type="button" class="btn output">1</button>
-
-
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-
+        <supplies-panel supplies="supplies"></supplies-panel>
 
     </div>
 
-    <!--submit survey-->
-    <div class="section" style="margin: 20px 0 0;padding: 0 0 20px;">
+    <div class="section no-border">
+        <div class="section-header">
+            <h1>Additional Notes</h1>
+        </div>
         <textarea style="margin-left:10px;width:290px" placeholder="Additional Notes"></textarea>
     </div>
 
+    <!--submit survey-->
     <div class="section no-border">
         <div class="section-body">
             <div class="control labor submit-btn">
