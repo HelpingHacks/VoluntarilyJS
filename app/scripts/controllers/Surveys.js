@@ -1,6 +1,9 @@
 'use strict';
 
-voluntarilyApp.controller('SurveysCtrl', function($scope) {
+voluntarilyApp.controller('SurveysCtrl', ['$rootScope', '$routeParams', function($scope, $rootScope, $routeParams) {
+  if ($routeParams.household_id === undefined) {
+    alert('error!');
+  }
   $scope.contactName = 'John';
   $scope.address = "123 Green Street, etc.";
   $scope.urgency = 1;
@@ -19,5 +22,22 @@ voluntarilyApp.controller('SurveysCtrl', function($scope) {
     {name: "Water", color: "#07AFB9", count: 0, imageUrl: '/images/water_bottles.png'}
   ];
 
-  $scope.notes = ""
-});
+  $scope.notes = "";
+  $scope.getSurveyByHouseholdId = function(household_id) {
+    //retrieve a survey from the $rootScope.god.getSurvey(household_id)
+  };
+
+  $scope.buildSurvey = function(household_id, urgency, utilities, supplies, notes) {
+    var survey = {
+      id: 1,
+      team_id: 1,
+      submitted: false,
+      household_id: household_id,
+      urgency: urgency,
+      utilities: utilities,
+      supplies: supplies,
+      notes: notes
+    };
+    return survey;
+  };
+}]);
