@@ -4,7 +4,6 @@ body {
   background: #0C282B;
 }
 
-
 .action-part, .group-login {
   margin-top: -100px !important;
   margin: 0 auto;
@@ -217,10 +216,11 @@ body {
 
 .control #urgency {
   -webkit-appearance: none !important;
-  background: url('img/range.png');
-  height: 40px;
-  width: 255px;
-  background-repeat: no-repeat;
+  ////background-image: url('../images/range_blend.png');
+  ////background-position: 0 10px;
+  ////height: 40px;
+  ////width: 255px;
+  //background-repeat: no-repeat;
 }
 
 .control.utilities .button.utilities {
@@ -281,7 +281,7 @@ body {
 }
 
 .yellow h3 {
-  color: #ffed00;
+  color: #30AA5E;
 }
 
 .oj h3 {
@@ -380,42 +380,42 @@ body {
 }
 
 .power-btn {
-  background: url('img/power_on.png');
+  background: url('../images/power_on.png');
   background-repeat: no-repeat;
 }
 
 .utilities .power-btn.active {
-  background: url('img/power_on.png');
+  background: url('../images/power_on.png');
   opacity: 0.5;
 }
 
 .gas-btn {
-  background: url('img/gas_on.png');
+  background: url('../images/gas_on.png');
   background-repeat: no-repeat;
 }
 
 .utilities .gas-btn.active {
-  background: url('img/gas_on.png');
+  background: url('../images/gas_on.png');
   opacity: 0.5;
 }
 
 .water-btn {
-  background: url('img/water_on.png');
+  background: url('../images/water_on.png');
   background-repeat: no-repeat;
 }
 
 .utilities .water-btn.active {
-  background: url('img/water_on.png');
+  background: url('../images/water_on.png');
   opacity: 0.5;
 }
 
 .heat-btn {
-  background: url('img/heat_on.png');
+  background: url('../images/heat_on.png');
   background-repeat: no-repeat;
 }
 
 .utilities .heat-btn.active {
-  background: url('img/heat_on.png');
+  background: url('../images/heat_on.png');
   opacity: 0.5;
 }
 
@@ -423,9 +423,29 @@ input, textarea {
   border: none;
 }
 
-#visit_address {
-  font-weight: bolder;
-  font-size: 15px;
+address-panel {
+  textarea {
+    font-weight: bolder;
+    font-size: 15px;
+  }
+}
+
+utilities-panel {
+  ul {
+    list-style: none;
+    li {
+      display: inline;
+      utility-button {
+        //display: inline;
+        width: 50px;
+        float: left;
+        margin-right:22px;
+        label {
+          text-align: center;
+        }
+      }
+    }
+  }
 }
 
 body {
@@ -450,4 +470,30 @@ body {
   background-repeat: no-repeat;
   background-size: 320px 480px;
   height: 480px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    box-shadow: 0 0 3px 3px rgba(128,128,128, .5);
+    background: darkred;
+    border-radius: 15px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    height:40px;
+    width: 40px;
+  border:  0 solid;
+
+}
+
+input[type='range'] {
+  margin: 40px 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  height:10px;
+
+}
+
+.opacity-half {
+  opacity: 0.5;
 }
