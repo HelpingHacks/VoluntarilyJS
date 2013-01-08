@@ -4421,6 +4421,12 @@ body {
   -webkit-box-shadow: 0 3px 0 #235386, inset 0px 1px rgba(255, 255, 255, 0.2), transparent 0 0 0, transparent 0 0 0, transparent 0 0 0;
   box-shadow: 0 3px 0 #235386, inset 0px 1px rgba(255, 255, 255, 0.2), transparent 0 0 0, transparent 0 0 0, transparent 0 0 0; }
 
+.btn.start{
+  position: relative;
+  top:413px;
+  left:39px;
+}
+
 .logo {
   background-image: url(../images/logo.png);
   background-repeat: no-repeat;
