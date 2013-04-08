@@ -1,6 +1,34 @@
 'use strict';
 
-voluntarilyApp.controller('SurveysCtrl', function($scope) {
+voluntarilyApp.controller('SurveysCtrl', function($scope, $http) {
+  $scope.postToBackend = function() {
+    $http.post('http://localhost:3000/surveys',{
+      survey: {
+//        power: true,
+//        heat: true,
+//        water: true,
+//        gas: false,
+        power: !$scope.utilities[0].broken,
+        heat: !$scope.utilities[1].broken,
+        gas: !$scope.utilities[2].broken,
+        water: !$scope.utilities[3].broken,
+//        medical: false,
+//        medical: $scope.supplies[0].count,
+//        clothing: 6,
+//        flashlights: 3,
+//        misc: 'this has been a test',
+        misc: $scope.notes,
+//        address: '123 test street',
+        address: $scope.address,
+        food: $scope.supplies[1].count,
+        flashlights: $scope.supplies[2].count,
+        clothing: $scope.supplies[3].count
+      }
+
+
+    })
+  };
+
   $scope.contactName = 'John';
   $scope.address = "123 Green Street Apt: 1B";
   $scope.urgency = 1;

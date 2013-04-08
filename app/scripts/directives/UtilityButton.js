@@ -2,7 +2,7 @@
 
 voluntarilyApp.directive('utilityButton', function() {
   return {
-    template: '<img class="utility-image" src="{{imageUrl}}"><label>{{labelText}}:</label><label class="status"></label>',
+    template: '<img class="utility-image" src="{{imageUrl}}" ng-click="toggle()"><label>{{labelText}}:</label><label class="status"></label>',
     scope: {
           labelText: '=',
           imageUrl: '=',
@@ -15,23 +15,22 @@ voluntarilyApp.directive('utilityButton', function() {
       element.find('label.status').text('testing');
 //        scope.onOrOff(scope.broken));
 
-      scope.onOrOff = function(broken) {
-        return broken ? 'Off' : 'On';
-      }
-
-      element.bind('click',function(e){
+//      scope.onOrOff = function(broken) {
+//        return broken ? 'Off' : 'On';
+//      }
+      scope.toggle = function() {
         console.log(scope.broken);
         scope.broken = !scope.broken;
         console.log(scope.broken);
-        var mainElement = angular.element(e.currentTarget);
-        mainElement.find('img').toggleClass('opacity-half', scope.broken);
+//        var mainElement = angular.element(e.currentTarget);
+        element.find('img').toggleClass('opacity-half', scope.broken);
         if (scope.broken === true) {
-          mainElement.find('label.status').text('Off')
+          element.find('label.status').text('Off')
         } else {
-          mainElement.find('label.status').text('On')
+          element.find('label.status').text('On')
         }
 
-      });
+      };
     }
   };
 });
