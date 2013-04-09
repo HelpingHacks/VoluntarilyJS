@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+height:30px;
+}
+
+.submit-btn {
+margin-left: 0px;
+}
+
+.btn-success{
+  margin-left:50px;
+}
+
+.supplies h3 {
+margin-left: 8px;
+}
+
+h1, h2, h3, h4 {
+font-family: 'Lato', sans-serif;
+font-weight:400;
+}
+
+p{
+font-family: 'Lato', sans-serif;
+  font-weight:300;
+}
+
+textarea{
+  font-family:'Lato', sans-serif;
+  font-weight:700;
+}
+
+.control.urgency{
+  text-align:center;
+}
+
+input[type='range']{
+  margin:20px 0;
+}
