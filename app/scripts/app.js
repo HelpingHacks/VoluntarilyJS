@@ -16,7 +16,7 @@ var voluntarilyApp = angular.module('voluntarilyApp', [])
         templateUrl: 'views/households.html',
         controller: 'HouseholdsCtrl'
       })
-      .when('/surveys', {
+      .when('/surveys/:id', {
         templateUrl: 'views/surveys.html',
         controller: 'SurveysCtrl'
       })

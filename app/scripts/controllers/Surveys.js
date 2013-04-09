@@ -1,6 +1,10 @@
 'use strict';
 
-voluntarilyApp.controller('SurveysCtrl', function($scope, $http) {
+voluntarilyApp.controller('SurveysCtrl', function($scope, $routeParams, $http, householdsService) {
+  console.log($routeParams.id);
+  $scope.household = householdsService.getHousehold($routeParams.id);
+  console.log($scope.household);
+
   $scope.postToBackend = function() {
     $http.post('http://localhost:3000/surveys',{
       survey: {
@@ -29,8 +33,10 @@ voluntarilyApp.controller('SurveysCtrl', function($scope, $http) {
     })
   };
 
-  $scope.contactName = 'John';
-  $scope.address = "123 Green Street Apt: 1B";
+//  $scope.contactName = 'John';
+  $scope.contactName = $scope.household.contactName;
+//  $scope.address = "123 Green Street Apt: 1B";
+  $scope.address = $scope.household.address;
   $scope.urgency = 1;
   $scope.utilities = [
     {labelText: "Power", broken: false, imageUrl: "/images/power_on.png"},

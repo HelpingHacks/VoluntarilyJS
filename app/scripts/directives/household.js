@@ -1,19 +1,24 @@
 'use strict';
 
-voluntarilyApp.directive('household', function() {
+voluntarilyApp.directive('household', function($location) {
   return {
 //    template: '<div>{{contactName}} {{apt}} {{address}}</div>',
     templateUrl: '/scripts/directives/templates/household.html',
     scope: {
       contactName: '=',
       address: '=',
-      apt: '='
+      apt: '=',
+      id: '='
     },
     restrict: 'E',
     link: function postLink(scope, element, attrs) {
       scope.changeView = function(view) {
-        angular.$location.path(view);
+        $location.path(view);
       };
+
+      scope.goToSurvey = function(id) {
+        scope.changeView('/surveys/' + id)
+      }
     }
   };
 });
