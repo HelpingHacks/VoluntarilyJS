@@ -23,7 +23,7 @@ font-weight:400;
 
 p{
 font-family: 'Lato', sans-serif;
-  font-weight:300;
+  font-weight:400;
 }
 
 textarea{
@@ -37,4 +37,8 @@ textarea{
 
 input[type='range']{
   margin:20px 0;
+}
+
+.listing p:nth-child(2){
+  font-weight:700;
 }
